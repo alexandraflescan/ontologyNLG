@@ -1,0 +1,67 @@
+if X/Y  >= 1 => Class plural
+if X/Y  = 1 => Class singular
+if 
+Add adjectives?
+
+Addition(+)
+X+Y
+PATTERN_1 
+(PersonalPronoun) VB*/There TOBE X (Class), that (hasPropertyofClass+Class) and hasPropertyofClass+Class)** and(addition) Y (Class_disjoint), that (hasProperty and hasProperty_disjoint). How many SuperClass did (PersonalPronoun) VB-ED?
+
+PATTERN_2 
+(Person-hyponims) + VB + X (Class), that (hasProperty+Class) + (hasProperty_disjoint+Class)** and(addition) Y(Class_disjoint), that (hasProperty and hasProperty_disjoint). How many (SuperClass) did (PersonalPronoun) VB-ED?
+
+PATTERN_3 
+There are X (Class), that (hasProperty+Class, hasProperty_disjoint+Class)** and(addition) Y(Class_disjoint), that (hasProperty and hasProperty_disjoint). How many SuperClass are in total??
+
+PATTERN_4
+(Domain) + Property +  X Range 'and' Y Range. IF  adds to (Class_disjoint), how many (SuperClass of Class) are in total?***
+{''}
+* VB = brings/has/commands/give...
+**de lasat doar un "has" in enumeratie
+*** total - wordnet
+"+" - "and", "in addition"
+properties and classes should be disjoint when first enumerated in all cases 
+-------------------------------------------------------------------------------------------
+Subtraction(-)
+X-Y
+PATTERN_1
+(PersonalPronoun) has X (Class) (hasProperty-Class) and (hasProperty_disjoint-Class) and (Class_dijoint), (hasProperty-Class) and (hasProperty_disjoint-Class). (PersonalPronoun_3d) gives to (Person_hyponym) Y (Class_ref1). How many SuperClass are left?
+
+PATTERN_2
+(There are) X (Class)(hasProperty-Class) and (hasProperty_disjoint+Class), and (Class_disjoint), (hasProperty-Class) and (hasProperty_disjoint+Class). If Y(Class_disjoint_ref1) is removed/deleted, how many SuperClass are left?
+-----------------------------------------------------
+Multiplication(*)
+(X*Y)
+PATTERN_1
+(PersonalPronoun) has X(Class), which (hasProperty-Class) that (hasProperty_disjoint-Class). He adds Y times more (refs - X hasProperty-Class). How much (ref-Class) has (PersonalPronoun)?
+
+PATTERN_2
+There is X  which (hasProperty-Class) that (hasProperty_disjoint-Class). If we add Y times more (refs - X ). How much (ref-Class) has (PersonalPronoun) in total?
+--------------------------------------------------------------------------------------------
+Division(/)
+(X/Y)
+(PersonalPronoun) has (Class), which (hasProperty-Class) that (hasProperty_disjoint-Class). He divides the X (Class) Y. How much of the Class_ref is left?
+-------------------------------------------------------------------------------------------
+There is (Class), which (hasProperty-Class) that (hasProperty_disjoint-Class). He divides the X (Class) Y. How much of the Class_ref is left?
+
+
+
+
+
+PATTERN_3 
+There are X (Class), that (hasProperty+Class, hasProperty_disjoint+Class)** and(addition) Y(Class_disjoint), that (hasProperty and hasProperty_disjoint): If Y are removed. How many SuperClass left?
+
+5+5 - thing and thing
+5-5 - from thing remove thing
+5*5 - thing is multiplied with five
+5/5 - thing is devided by thing
+
+
+5+5-5 - thing and thing. if remove thing ...?
+5-5+5 - from thing remove thing. now add thing
+.
+
+
+
+

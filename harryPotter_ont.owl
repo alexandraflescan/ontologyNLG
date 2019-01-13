@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#"
+     xml:base="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hasBroomStick -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hasBroomStick">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#BroomStick"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hasMagicAnimal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hasMagicAnimal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#MagicAnimals"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hasPotion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hasPotion">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Potion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hasWand -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hasWand">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wand"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#BroomStick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#BroomStick"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Draco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Draco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Dumbledore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Dumbledore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Hagrid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Hagrid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#HarryPotter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#HarryPotter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Hermione -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Hermione">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#MagicAnimals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#MagicAnimals"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Potion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Potion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Ron -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Ron">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Voldemort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Voldemort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wand"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wizard"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#cat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#cat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#MagicAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#dragonWand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#dragonWand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hatePotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#hatePotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Potion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#healingPotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#healingPotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Potion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#littleChocolateFrogs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#littleChocolateFrogs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#MagicAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#lovePotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#lovePotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Potion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#magicPotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#magicPotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Potion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#newBroomstick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#newBroomstick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#BroomStick"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#oldBroomstick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#oldBroomstick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#BroomStick"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#oldRat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#oldRat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#MagicAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#performantBroomstick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#performantBroomstick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#BroomStick"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#pheonixWand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#pheonixWand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#powerfulWand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#powerfulWand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#sleepingPotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#sleepingPotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Potion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#weakWand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#weakWand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#Wand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#whiteOwl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#whiteOwl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#MagicAnimals"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#cat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#littleChocolateFrogs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#oldRat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#whiteOwl"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#dragonWand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#pheonixWand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#powerfulWand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#weakWand"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#newBroomstick"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#oldBroomstick"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/alexandra/ontologies/2018/5/untitled-ontology-27#performantBroomstick"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

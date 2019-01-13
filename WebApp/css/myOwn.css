@@ -1,0 +1,176 @@
+.masthead img{
+    width:30%
+}
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+/* Basic reset */
+
+
+/* BG gradient */
+
+
+/* Calculator */
+#calculator {
+	width: 325px;
+	height: auto;
+	margin-left: 5%;
+
+	padding: 20px 20px 9px;
+	/* background: #none; */
+	/* background: linear-gradient(#c9dd84, #9fcb96); */
+	border-radius: 5px;
+}
+
+/* Top */
+.top  span.clear{
+	float: left;
+}
+
+/* Screen styling */
+
+
+.top .screen {
+  height:90px;
+	width: 285px;
+	padding: 0 10px;
+	background: rgba(154, 185, 188, 0.8);
+	border-radius: 5px;
+  margin-bottom:10px;
+	/* Typography */
+	font-size: 30px;
+	line-height: 90px;
+	color: white;
+	text-align: right;
+  overflow:auto;
+}
+
+/* Clear floats */
+.keys  {
+  overflow: hidden;
+}
+
+/* Keys */
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	background: #18bc9c;
+	font-size:27px;
+	cursor: pointer;
+	width: 66px;
+	height: 46px;
+	border-radius: 5px;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	margin: 0 7px 11px 0;
+	color: #f1c851;
+	line-height: 46px;
+	text-align: center;
+	user-select: none;
+  outline: 0 solid;
+	/* hover and active state transitions */
+	transition: all 0.2s ease;
+}
+
+/* Unique key styling */
+.keys span.operator {
+	background: #2c3e50;
+	margin-right: 0;
+}
+
+.keys span.operator sup {
+  font-size: 50%;
+  vertical-align: top;
+  color:#f1c851;
+}
+
+.keys span.eval {
+	background: #d6643f;
+	box-shadow: 0px 4px #c3502b;
+	color: #f1c851;
+  width: 212px;
+}
+
+span.clear {
+	background: #2c3e50;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* hover effects */
+.keys span:hover {
+	background: #795ebd;
+	color: white;
+}
+
+.keys span.eval:hover {
+	background: #f37c4c;
+	box-shadow: 0px 4px #d65f3d;
+	color: #ffffff;
+}
+
+.keys span.operator:hover {
+	background: #5d7bba;
+	color: #ffffff;
+}
+
+.top span.clear:hover {
+	background: #f68991;
+	box-shadow: 0px 4px #d3545d;
+	color: white;
+}
+
+/* Simulating "pressed" effect */
+.keys span:active {
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.keys span.eval:active {
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top span.clear:active {
+	top: 4px;
+	box-shadow: 0px 0px #d3545d;
+}
+.keys span.eval {
+	background: #d6643f;
+	box-shadow: 0px 4px #c3502b;
+	color: #f1c851;
+  width: 285px;
+}
+
+.problem {
+    margin-top:2em;
+    display: block;
+	font-size: medium;
+
+}
+
+#problem_output {
+	margin-top: 20px;
+	max-height: 372px;
+	overflow-y: scroll;
+	text-decoration-color: #f7f7f7;
+}
+
+.panel-heading {
+	background: #2c3e50 !important;
+	color: #f7f7f7 !important;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.panel {
+
+	background: #18bc9c;
+}
+header.masthead{
+	padding-top: 40px !important;
+}
+
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}
